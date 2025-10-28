@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT-Github demonstração</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="meu_cabecario">
+        <h1 class="titulo">Demonstração Prática</h1>
+        <h2 class="subtitulo"> de GIT e GITHUB</h2>
+        <nav class="link_partes">
+            <a href="#intro"> Introdução</a> |
+            <a href="#pratica">Parte Prática</a>
+        </nav>
+    </header>
+    <h2 id="intro" class="topicos">Introdução</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th> Comandos </th>
+                <th> Função </th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>git config --global user.name "Seu Nome"</code></td>
+                <td class="funcao">Define o nome que aparecerá no histórico de commits</td>
+            </tr>
+            <tr>
+                <td><code>git config --global user.email "seu.emailexemplo@gmail.com"</code></td>
+                <td class="funcao">Define o email que aparecerá no histórico de commits</td>
+            </tr>
+            <tr>
+                <td><code>git init</code></td>
+                <td class="funcao">Inicia um novo repositório Git no diretório atual</td>
+            </tr>
+            <tr>
+                <td><code> git clone URL_do_repositório</code></td>
+                <td class="funcao">Cria uma cópia local(um "clone") de um repositório que ja    existe</td>
+            </tr>
+            <tr>
+                <td><code>git status</code></td>
+                <td class="funcao">Mostrao estado atual do repositório</td>
+            </tr>
+            <tr>
+                <td><code>git add nome_do_arquivo</code></td>
+                <td class="funcao">Adiciona um arquivo específico ao "stage" (área de preparação) para ser incluído ao commit</td>
+            </tr>
+            <tr>
+                <td><code>git add .</code></td>
+                <td class="funcao">Adiciona todas as alterações no diretório ao "stage"</td>
+            </tr>
+            <tr>
+                <td><code>git commit -m "Sua mensagem"</code></td>
+                <td class="funcao">Salva as alterações do "stage" no repositório com uma mensagem descritiva</td>
+            </tr>
+            <tr>
+                <td><code>git pull</code></td>
+                <td class="funcao">Baixa as alterações do repositório e mescla com a branch local</td>
+            </tr>
+            <tr>
+                <td><code>git push</code></td>
+                <td class="funcao">Envia seus commits locais para o repositório remoto</td>
+            </tr>
+            <tr>
+                <td><code>git push origin nome_da_sua_branch</code></td>
+                <td>Forma explícita de enviar seus commits para uma branch específica no remoto</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="pratica" class="topicos">Parte Prática</h2>
+    <h3 class="topicos"> - GIT</h3>
+    <h3 class="topicos"> - Github</h3>
+
+    <footer>
+        <p><a href="Readme.md" target="_blank" class="link_direitos">Todos os direitos reservados</a></p>
+    </footer>
+</body>
+</html>
